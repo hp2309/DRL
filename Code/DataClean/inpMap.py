@@ -1,6 +1,6 @@
 import numpy as np
 grid = np.zeros((384, 384))
-weights = {-1: 0.02, 0: 0.08, 100: 0.9} #unknown -1, open 0, occupied 100; in order
+weights = {-1: 0.02, 0: 0.08, 100: 0.9} #unknown -1, open 0, occupied 100; in that order
 #I will get the grid somehow
 grid = np.reshape(grid, (384, 384))
 small_grid = np.ones((64, 64))
